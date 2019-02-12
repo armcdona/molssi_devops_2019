@@ -4,6 +4,7 @@ A sample repo for the 2019 MolSSI Software Fellows Bootcamp.
 
 Handles the primary functions
 """
+import numpy
 
 def mean(numlist):
     """

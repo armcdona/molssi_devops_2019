@@ -1,1 +1,10 @@
+**************
+This is the starting of testing.txt
+**************
+
 This is a test.
+Now I add a new line.
+
+*************
+This is the end of testing.txt
+*************

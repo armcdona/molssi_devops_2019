@@ -1,9 +1,27 @@
 """
 molssi_math.py
-A sample repo for the 2019 MolSSI Software Fellows Bootcamp
+A sample repo for the 2019 MolSSI Software Fellows Bootcamp.
 
 Handles the primary functions
 """
+
+def mean(numlist):
+    """
+    Computes the mean of a list of numbers
+
+    """
+    # Check to see that input is type numlis
+    if not isinstance(numlist, list):
+        raise TypeError('Invalid input must be type list.')
+
+    if len(numlist) == 0:
+        raise ZeroDivisionError('Cannot calculate the mean of an empty list.')
+
+    total = 0
+    for num in numlist:
+        total = total + num
+    average = total/len(numlist)
+    return average
 
 
 def canvas(with_attribution=True):
